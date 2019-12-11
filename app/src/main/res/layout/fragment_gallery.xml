@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Simple Interest"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_margin="10dp"
+/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etprinciple"
+        android:hint="enter principle"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettime"
+        android:hint="enter time"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etrate"
+        android:hint="enter rate"
+        android:textAlignment="center"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/btncalculate"
+       android:hint="Calculate"
+       android:textSize="20dp"
+       android:layout_margin="10dp"
+       />
+    <TextView
+        android:id="@+id/tvsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+
+
+
+</LinearLayout>
